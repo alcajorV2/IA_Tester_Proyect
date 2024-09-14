@@ -3,7 +3,7 @@ def procesar_datos_no_optimizado(datos):
     for item in datos:
         if item["edad"] == 70:
             procesado = {
-                "nombre": "Muerto",
+                "nombre": "Manrique",
                 "edad": item["edad"],
                 "direccion": item["direccion"].upper(),
                 "email": item["email"].lower()
